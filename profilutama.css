@@ -1,0 +1,228 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #0089d9;
+}
+
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.logo {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: flex;
+    height: 8vh;
+}
+
+.bg {
+    width: 100%;
+    opacity: 0.5;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#editnav {
+    background-color: #0089d9;
+    width: 90%;
+    margin: 1vh auto 0 auto;
+    border-radius: 3em;
+    border: 0.5vh outset #46bbff;
+}
+
+#editnavlink {
+    color: white;
+    padding: 1em 2em;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: .2s ease-in-out;
+}
+
+#editnavlink:hover {
+    background-color: white;
+    border-radius: 3em;
+    transform: scale(1.1);
+    color: #0089d9;
+}
+
+.profil {
+    background-image: url('gambar/farandbg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.desc {
+    float: left;
+    background-color: #46bbff;
+    color: white;
+    font-size: 1em;
+    height: 100%;
+    width: 55%;
+    border-radius: 2em 0 2em 0;
+    box-shadow: 1em 1em 0.1em #003a7c;
+    padding-bottom: 1em;
+}
+
+.salam {
+    margin: 5em 10em 0 10em;
+    width: 60%;
+    height: flex;
+}
+
+.farand {
+    float: left;
+    margin: 0 7em;
+    width: 20em;
+    height: flex;
+}
+
+.pencapaian {
+    padding: 1em 0;
+    text-align: center;
+    transition: 200ms ease-in-out;
+    background-color: white;
+    float: left;
+    border-radius:3em;
+    width: 20em;
+    margin: 2em auto;
+    color: #0089d9;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pencapaian:hover {
+    color: white;
+    background-color: #0089d9;
+    transform: scale(1.03);
+    box-shadow: 1em 1em 1em #003a7c;
+}
+
+footer {
+    background-color: #003a7c;
+    width: 100%;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline;
+}
+
+.sosmed {
+    float: left;
+    margin: 5vh 0 5vh 8vw; /*atas kanan bawah kiri*/
+    color: white;
+    width: 45%;
+}
+
+.about {
+    color: #46bbff;
+}
+
+.about-desc {
+    margin-top: 3vh;
+    width: 72%;
+    text-align: justify;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    color: white;
+    margin: 5vh 0 5vh 0; /*atas kanan bawah kiri*/
+}
+
+footer h4 {
+    margin-bottom: 2vh;
+    color: #46bbff;
+}
+
+.menulink {
+    display: block;
+    margin-bottom: 1vh;
+    color: white;
+    text-decoration: none;
+    transition: 500ms ease-in-out;
+    position: relative;
+}
+
+.menulink::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.menulink:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.link {
+    width: 2vw;
+    height: flex;
+    transition: 200ms ease-in-out;
+}
+
+.link:hover {
+    transform: scale(1.1);
+}
+
+.webdev {
+    float: left;
+    width: 20%;
+    color: white;
+    margin: 5vh 0 5vh 0;
+}
+
+.webdevlink {
+    display: block;
+    margin-bottom: 1vh;
+    color: white;
+    text-decoration: none;
+    transition: 500ms ease-in-out;
+    position: relative;
+}
+
+.webdevlink::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.webdevlink:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+footer hr {
+    color: white;
+    border: 1px solid white;
+    width: 85%;
+    margin-left: 8vw;
+}
+
+.cpr {
+    color: white;
+    text-align: center;
+    font-size: larger;
+}

@@ -1,0 +1,201 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #0089d9;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: flex;
+    height: 8vh;
+}
+
+.bg {
+    width: 100%;
+    opacity: 0.5;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#editnav {
+    background-color: #0089d9;
+    width: 90%;
+    margin: 1vh auto 0 auto;
+    border-radius: 3em;
+    border: 0.5vh outset #46bbff;
+}
+
+#editnavlink {
+    color: white;
+    padding: 1em 2em;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: .2s ease-in-out;
+}
+
+#editnavlink:hover {
+    background-color: white;
+    border-radius: 3em;
+    transform: scale(1.1);
+    color: #0089d9;
+}
+
+#editbutton {
+    transition: 200ms ease-in-out;
+}
+
+#editbutton:hover {
+    background-color: #46bbff;
+    color: white;
+}
+
+.seclayer {
+    background-image: url(gambar/bg\ smp\ 1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 15vh 0 0 0;
+    width: 100%;
+    float: left;
+}
+
+.deskripsiberita {
+    float: left;
+    margin: 3em;
+    width: 90vw;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0089d9;
+    color: white;
+    padding: 1em;
+    font-size: 1.13em;
+    border-radius: 0 2em 0 2em;
+}
+
+footer {
+    background-color: #003a7c;
+    width: 100%;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline;
+}
+
+.sosmed {
+    float: left;
+    margin: 5vh 0 5vh 8vw; /*atas kanan bawah kiri*/
+    color: white;
+    width: 45%;
+}
+
+.about {
+    color: #46bbff;
+}
+
+.about-desc {
+    margin-top: 3vh;
+    width: 72%;
+    text-align: justify;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    color: white;
+    margin: 5vh 0 5vh 0; /*atas kanan bawah kiri*/
+}
+
+footer h4 {
+    margin-bottom: 2vh;
+    color: #46bbff;
+}
+
+.menulink {
+    display: block;
+    margin-bottom: 1vh;
+    color: white;
+    text-decoration: none;
+    transition: 500ms ease-in-out;
+    position: relative;
+}
+
+.menulink::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.menulink:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.link {
+    width: 2vw;
+    height: flex;
+    transition: 200ms ease-in-out;
+}
+
+.link:hover {
+    transform: scale(1.1);
+}
+
+.webdev {
+    float: left;
+    width: 20%;
+    color: white;
+    margin: 5vh 0 5vh 0;
+}
+
+.webdevlink {
+    display: block;
+    margin-bottom: 1vh;
+    color: white;
+    text-decoration: none;
+    transition: 500ms ease-in-out;
+    position: relative;
+}
+
+.webdevlink::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.webdevlink:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+footer hr {
+    color: white;
+    border: 1px solid white;
+    width: 85%;
+    margin-left: 8vw;
+}
+
+.cpr {
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
